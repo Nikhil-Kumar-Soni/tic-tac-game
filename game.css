@@ -1,9 +1,13 @@
+body{
+  background-color: #2a1515;
+}
 .container {
     text-align: center;
     margin-top: 50px;
   }
   
   h1 {
+    color: azure;
     font-size: 36px;
     margin-bottom: 20px;
   }
@@ -13,12 +17,13 @@
     grid-template-columns: repeat(3, 100px);
     grid-gap: 5px;
     margin-bottom: 20px;
+    justify-content: center;
   }
   
   .cell {
     width: 100px;
     height: 100px;
-    background: #fc9494;
+    background: #8e8989;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,8 +40,8 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #73de77;
-    color: rgb(239, 129, 129);
+    background-color: #000000;
+    color: rgb(251, 6, 6);
     border: none;
     border-radius: 5px;
   }
